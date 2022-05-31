@@ -5,7 +5,7 @@ layout: default
 ---
 
 # EzPing Summary 🚫
-[EzPing](https://ezping.gg/) is a .NET C# application that claims to improve your ping for competitive gaming, primarily targeted towards Minecraft players. It is an overpriced scam (watch this video first https://www.youtube.com/watch?v=tyhVoeyi4r8) and here's a list of what it does from simple analysis with [ILSpy](https://github.com/icsharpcode/ILSpy) and [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html):
+[EzPing](https://ezping.gg/) is a .NET C# application that claims to improve your ping for competitive gaming, primarily targeted towards Minecraft players. It is an overpriced scam [(watch this video first)](https://www.youtube.com/watch?v=tyhVoeyi4r8) and here's a list of what it does from simple analysis with [ILSpy](https://github.com/icsharpcode/ILSpy) and [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html):
 
 - Sets [DSCP policies](https://en.wikipedia.org/wiki/Differentiated_services) for games (does not do this correctly so all of the policies are useless)
   - Dependant on people's situation with networking
