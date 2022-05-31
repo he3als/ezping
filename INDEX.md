@@ -5,15 +5,16 @@ layout: default
 ---
 
 # EzPing Summary 🚫
-[EzPing](https://ezping.gg/) is a .NET C# application that claims to improve your ping for competitive gaming, primarily targeted towards Minecraft players. It is an overpriced scam [(watch this video first)](https://www.youtube.com/watch?v=tyhVoeyi4r8) and here's a list of what it does from simple analysis with [ILSpy](https://github.com/icsharpcode/ILSpy) and [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html):
+[EzPing](https://ezping.gg/) is a .NET C# application that claims to improve your ping for competitive gaming, primarily targeted towards Minecraft players. It is an overpriced scam with a lot of claims that do not make any sense, [I recommend you to watch this video first](https://www.youtube.com/watch?v=tyhVoeyi4r8). In summary, a YouTuber called [Ziblacking](https://www.youtube.com/c/Ziblacking) actually is behind EzPing and he has a bad reputation for scamming, generally being very clickbaity and cheating. Here is a list of what EzPing does from simple analysis with [ILSpy](https://github.com/icsharpcode/ILSpy) and [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html):
 
 - Sets [DSCP policies](https://en.wikipedia.org/wiki/Differentiated_services) for games (does not do this correctly so all of the policies are useless)
   - Dependant on people's situation with networking
   - Tells the router to prioritise certain packets
   - Probably won't even help with ping, unless your network is congested
-- Sets process priorities (sets the service group for BITS to real-time and selected processes in the app)
+- Sets process priorities (sets the service group for BITS to real-time and selected processes/games in the app)
   - Setting any process to real-time is stupid, unless you exactly know what you are doing and you are not actively using your PC
   - Setting Minecraft to real-time or other process priorities won't help with ping, it only effects the CPU and it causes issues
+  - Setting any intensive process to real-time worsens responsiveness significantly 
   - Doesn't even help performance most of the time
   - Windows Game Mode or Process Lasso handles priorities well, so you don't need EzPing to do this crappily
 - Sets TCPNoDelay
