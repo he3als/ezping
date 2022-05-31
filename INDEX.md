@@ -29,4 +29,4 @@ layout: default
 
 **Note:** Although there's a refund and a free trial, people experience placebo, which means they pay long term for a pointless program. 
 
-**Do not buy this program!**
+**Do not buy this program!** Website, repo and research done by [he3als](https://github.com/he3als).
