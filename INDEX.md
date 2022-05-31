@@ -1,5 +1,5 @@
 ---
-title: "EzPing - An Overpriced Scam"
+title: "EzPing"
 permalink: /
 layout: default
 ---
@@ -26,4 +26,6 @@ layout: default
   - Most of the time it won't even help, Minecraft uses very little bandwidth and most likely it will be the same with apps in the background
   - You can just close your web browser or whatever is taking up bandwidth... Windows processes will not take up a bunch of bandwidth, you don't need to spend 8 pounds a month on a scam for this
 
-**Note:** Although there's a refund and a free trial, people experience placebo, which means they pay long term for a pointless program. **Do not buy this program!**
+**Note:** Although there's a refund and a free trial, people experience placebo, which means they pay long term for a pointless program. 
+
+**Do not buy this program!**
