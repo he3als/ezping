@@ -27,9 +27,7 @@ layout: default
   - Most of the time it won't even help, Minecraft uses very little bandwidth and most likely it will be the same with apps in the background
   - You can just close your web browser or whatever is taking up bandwidth... Windows processes will not take up a bunch of bandwidth, you don't need to spend 8 pounds a month on a scam for this
 
-### Conclusion
-**Do not buy this program!** 
-
+### Conclusion - Do not buy this program!
 Overall, EzPing does nothing worth the money. Setting process prorities (especially to real-time) does nothing for network stability or ping and causes issues with system responsiveness, TCPNoDelay is already configured on Minecraft and can be set via applications like TCPOptimiser system-wide or you can manually set easily, you can learn how to set DSCP policies in Windows by [clicking here](https://en.wikipedia.org/wiki/Differentiated_services) and you can literally just close your web browser or other apps using bandwidth whilst gaming instead of blocking all apps via Windows Firewall.
 
 Applications in Windows can not alter your Windows networking settings (whilst maintaining the same amount of ping) to reduce your knockback or increase your reach, it simply doesn't work like that.
