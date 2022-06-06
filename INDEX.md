@@ -32,7 +32,7 @@ Website, repo and research done by [he3als](https://github.com/he3als). [**Click
 ### Conclusion - Do not buy this program!
 Overall, EzPing does nothing worth the money. Here's what it does on its initial release:
 - Setting process prorities (especially to real-time) does nothing for network stability or ping and causes issues with system responsiveness. 
-- TCPNoDelay is already hard-coded within Minecraft and can be set via applications like TCPOptimiser system-wide or you can manually set easily. 
+- TCPNoDelay is hard-coded in Minecraft and you can not change it with registry options. Most clients and 1.8.1+ have TCPNoDelay already enabled. 
 - You can learn how to set DSCP policies in Windows by [clicking here](https://en.wikipedia.org/wiki/Differentiated_services) 
 - You can literally just close your web browser or other apps using bandwidth whilst gaming instead of blocking all apps via Windows Firewall. 
 
