@@ -38,7 +38,7 @@ Overall, EzPing does nothing worth the money. Here's what it does on its initial
 
 For your information, Minecraft uses little bandwidth and so does any idle applications in the background most of the time. Whilst writing this guide on an almost default Windows 11 installation with Discord in the background, there's pretty much no bandwidth being used. Applications in Windows can not alter your Windows networking settings (whilst maintaining the same amount of ping) to reduce your knockback or increase your reach, it simply doesn't work like that.
 
-Even if there is a new version of EzPing that has more claims, you can't improve your ping so dramatically with a program on Windows. Plus, their reputation has already been ruined and ZIBLACKING out of all people is behind it, so if this website and those facts do not convince you to not buy this placebo program, then I do not know what will.
+Even if there is a new version of EzPing that has more claims, you can't improve your ping so dramatically with a program on Windows. Plus, their reputation has already been ruined and [ZIBLACKING](https://www.youtube.com/watch?v=tyhVoeyi4r8) out of all people is behind it, so if this website and those facts do not convince you to not buy this placebo program, then I do not know what will.
 
 **Note:** Although there's a refund and a free trial, people experience placebo, which means they pay long term for a pointless program. It is not an excuse for EzPing being okay or acceptable.
 
