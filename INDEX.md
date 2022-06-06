@@ -5,6 +5,8 @@ layout: default
 ---
 
 # EzPing Summary 🚫
+Website, repo and research done by [he3als](https://github.com/he3als).
+
 [EzPing](https://ezping.gg/) is a .NET C# application that claims to improve your ping for competitive gaming, primarily targeted towards Minecraft players. It is an **overpriced scam** with a lot of claims that do not make any sense, [I recommend you to watch this video first](https://www.youtube.com/watch?v=tyhVoeyi4r8). In summary, a YouTuber called [Ziblacking](https://www.youtube.com/c/Ziblacking) actually is behind EzPing and he has a bad reputation for scamming, generally being very clickbaity and cheating. Here is a list of what EzPing does from simple analysis with [ILSpy](https://github.com/icsharpcode/ILSpy) and [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html):
 
 - Sets [DSCP policies](https://en.wikipedia.org/wiki/Differentiated_services) for games (does not do this correctly so all of the policies are useless)
@@ -36,5 +38,3 @@ Applications in Windows can not alter your Windows networking settings (whilst m
 
 ### An actual guide to follow
 If you want to actually configure your network settings properly, [follow this guide](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/DOCS/NETWORK/README.md) with proven and free tweaks. Although, I can not guarentee that it will help with ping or other network issues. It won't give your extra reach or less knockback in Minecraft either, unless your ping somehow changes a lot after following the guide, which is very unlikely.
-
-Website, repo and research done by [he3als](https://github.com/he3als).
