@@ -5,7 +5,7 @@ layout: default
 ---
 
 # EzPing Summary 🚫
-Website, repo and research done by [he3als](https://github.com/he3als). 
+Website, repo and research done by [he3als](https://github.com/he3als). [**Click here to go to the conclusion!**](https://ezping.nostalgic.land/#conclusion---do-not-buy-this-program)
 
 [EzPing](https://ezping.gg/) is a .NET C# application that claims to improve your ping for competitive gaming, primarily targeted towards Minecraft players. It is an **overpriced scam** with a lot of claims that do not make any sense, [I recommend you to watch this video first](https://www.youtube.com/watch?v=tyhVoeyi4r8). In summary, a YouTuber called [Ziblacking](https://www.youtube.com/c/Ziblacking) actually is behind EzPing and he has a bad reputation for scamming, generally being very clickbaity and cheating. Here is a list of what EzPing does from simple analysis with [ILSpy](https://github.com/icsharpcode/ILSpy) and [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html):
 
